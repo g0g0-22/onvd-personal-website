@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #0a0406;
+    font-family: "Nunito Sans", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #7761eb;
+}
+
+
+
+.hero{
+    background-image: url("upscaled.jpg");
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero .text {
+  /* background-color: rgba(0, 0, 0, 0.6); optional dark overlay */
+  margin-top:300px;
+  margin-left:300px;
+  padding: 2rem;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 700px;
+}
+
+.hero h1 {
+    color: white;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+    color: white;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.cta{
+    height: 590px;
+    width: 100%;
+    background-color: wheat;
+}
