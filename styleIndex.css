@@ -23,7 +23,7 @@ body{
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 50px;
+  padding: 25px 50px;
 }
 
 .logo {
@@ -46,19 +46,18 @@ body{
 }
 
 
-
 .hero{
     background-image: url("upscaled.jpg");
     height: 1080px;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
 .hero .text {
   /* background-color: rgba(0, 0, 0, 0.6); optional dark overlay */
-  margin-top:300px;
-  margin-left:300px;
+  margin-top:250px;
+  margin-left:100px;
   padding: 2rem;
   border-radius: 12px;
   color: #fff;
@@ -81,4 +80,13 @@ body{
     height: 590px;
     width: 100%;
     background-color: wheat;
+}
+#spotify{
+  text-decoration: none;
+  color: #7761eb;
+  font-weight: 700;
+
+}
+#spotify:hover{
+  color: #A892FE;
 }
