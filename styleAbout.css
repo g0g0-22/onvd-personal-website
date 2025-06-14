@@ -3,12 +3,11 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: black;
     font-family: "Nunito Sans", sans-serif;
 }
 body{
     color: white;
-    overflow: hidden;
 }
 
 
@@ -40,10 +39,40 @@ body{
   margin-left: 1.5rem;
   color: #fff;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
 }
+#about{     
+    color: #7761eb;
 
+}
 .nav-links a:hover {
   color: #7761eb;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  height: 100vh; /* ✅ add this */
+  box-sizing: border-box;
+}
+
+#aboutText{
+    width: 500px;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+#aboutText h1{
+    color: #7761eb;
+    font-weight: 800;
+    text-align: right;
+}
+#mfr{
+    
+}
+.skills{
+    height: 100vh;
+    background-color: black;
 }
