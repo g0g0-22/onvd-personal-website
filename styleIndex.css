@@ -50,7 +50,7 @@ body{
 }
 
 .hero{
-    background-image: url("upscaled.jpg");
+    background-image: url("images/upscaled.jpg");
     height: 1080px;
     background-size: 100%;
     background-repeat: no-repeat;
