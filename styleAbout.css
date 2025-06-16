@@ -71,7 +71,8 @@ body{
     text-align: right;
 }
 #mfr{
-    
+    height: 60vh;
+    width: auto;
 }
 .skills-section {
   padding: 4rem 2rem;
