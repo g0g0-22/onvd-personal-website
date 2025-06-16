@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 html, body{
     margin: 0;
     padding: 0;
     background-color: #0a0406;
-    font-family: "Nunito Sans", sans-serif;
+  font-family: "Electrolize", sans-serif;
 }
 body{
     overflow: hidden;
@@ -58,29 +59,29 @@ body{
 
 .hero .text {
   /* background-color: rgba(0, 0, 0, 0.6); optional dark overlay */
-  margin-top:250px;
-  margin-left:100px;
+  margin-top:550px;
+  margin-left:25px;
   padding: 2rem;
   border-radius: 12px;
-  color: #fff;
+  color: #aeaeae;
   max-width: 700px;
 }
 
 .hero h1 {
     color: white;
-  font-size: 5rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .hero p {
     color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.6;
 }
 
 #spotify{
   text-decoration: none;
-  color: #7761eb;
+  color: white;
   font-weight: 700;
   transition: color 0.2s ease-in-out;
 }

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+html, body{
+    background-color: white;
+    font-family: "Electrolize", sans-serif;
+}
+body{
+    position: absolute;
+}
+img{
+    position: relative;
+    left: 550px;
+    top: 160px;
+    filter: blur(0)
+}

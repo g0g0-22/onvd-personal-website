@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+html,body{
+    font-family: "Electrolize", sans-serif;
+    background-color: #1a1a1a;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #7761eb;
+}
+.logo{
+  color: #7761eb;
+}
+.projects-title{
+    text-align: center;
+    margin-top: 100px;
+      color: #7761eb;
+}
+.project-section {
+  padding: 5rem 2rem;
+  background: transparent;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#kade{
+    width: 300px;
+    margin-right: 20px;
+}
+.project-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.project-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-img {
+  width: 45%;
+  border-radius: 10px;
+  object-fit: cover;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.project-text {
+  width: 45%;
+}
+
+.project-text h2 {
+  font-size: 2rem;
+  color: #7761eb;
+  margin-bottom: 1rem;
+}
+
+.project-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project-text a {
+  display: inline-block;
+  color: #a892fe;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.project-text a:hover {
+  border-bottom: 2px solid #a892fe;
+}
+#bsmt{
+    height: 400px;
+    width: auto;
+}
