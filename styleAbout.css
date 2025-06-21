@@ -70,7 +70,7 @@ body{
     font-weight: 800;
     text-align: right;
 }
-#mfr{
+#gorazd{
     height: 60vh;
     width: auto;
 }
@@ -209,4 +209,40 @@ body{
 .card a:hover {
   color: #7761eb;
   text-decoration: underline;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  z-index: 999;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+#scrollTopBtn img {
+  width: 24px;
+  height: 24px;
+  filter: invert(0); 
+  filter: brightness(1000)
+}
+
+#scrollTopBtn:hover {
+  background-color: rgba(119, 97, 235, 0.8); 
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

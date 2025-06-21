@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>About | Gorazd Nanevski</title>
   <link rel="stylesheet" href="styleAbout.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <nav class="navbar">
@@ -18,10 +19,10 @@
   </nav>
 
   <main class="content" style="padding-top: 120px;">
-    <img src="images/MFR.jpg" alt="photo" width="800px" id="mfr">
+    <img class="fade-in"src="images/gorazd.jpg" alt="photo" width="800px" id="gorazd">
     <div id="aboutText">
-        <h1>ABOUT</h1>
-        <p>
+        <h1 class="fade-in">ABOUT</h1>
+        <p class="fade-in">
             I'm Gorazd — a software engineering student, guitarist for <strong>Basement Cult</strong>, and someone who’s just as comfortable pushing code as I am pushing decibels. <br>My background blends music, tech, and storytelling: I've hosted a podcast interviewing some of the region’s top talent,
              produced genre-bending records, and now I'm building apps that aim to feel as thoughtful as a great chorus drop.</p>
     </div>
@@ -30,8 +31,8 @@
 
 
   <section class="skills-section">
-  <h2 id="skills-h2">MY SKILLS</h2>
-  <div class="skills-grid">
+  <h2 class="fade-in"id="skills-h2">MY SKILLS</h2>
+  <div class="skills-grid fade-in">
     <div class="skill-card">
       <img src="icons/react.svg" alt="React Native">
       <h3>React Native</h3>
@@ -82,7 +83,7 @@
     </div>
   </div>
 </section>
-<section class="social-cards">
+<section class="social-cards fade-in">
   <h2 class="social-title">CONNECT WITH ME</h2>
   <br>
   <div class="card-row">
@@ -115,8 +116,9 @@
   </div>
 </section>
 
+<button id="scrollTopBtn"><img src="icons/up-arrow-12.png"></button>
 
 
-  <script src="script.js"></script>
+
 </body>
 </html>
